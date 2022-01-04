@@ -36,3 +36,38 @@
     transform: rotate(360deg);
   }
 }
+
+ul{
+  list-style-type:none
+}
+
+
+
+#line{
+  position: relative;
+}
+#line::after{
+  display: block;
+  content: "";
+  width: 50%;
+  height: 1px;
+  background: whitesmoke;
+  position: absolute;
+  bottom: 0;
+
+}
+
+#serv{
+  height: 200px;
+  box-shadow: #282c34;
+} 
+.details{
+  padding: 30px;
+  color: white;
+  
+}
+
+#center{
+  margin-top: 10%;
+
+}
